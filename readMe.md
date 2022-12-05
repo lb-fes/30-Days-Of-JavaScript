@@ -114,12 +114,26 @@
 
 ## Introduction
 
-**Congratulations** on deciding to participate in 30 days of JavaScript programming challenge祝贺你决定参加为期 30 天的 JavaScript 编程挑战. In this challenge you will learn everything you need to be a JavaScript programmer, and in general, the whole concept of programming 在这项挑战中，你会学到成为一个 JavaScript 工程师. In the end of the challenge you will get a 30DaysOfJavaScript programming challenge completion certificate. In case you need help or if you would like to help others you may join the [telegram group](https://t.me/ThirtyDaysOfJavaScript).
+**Congratulations** on deciding to participate in 30 days of JavaScript programming challenge. 
+
+祝贺你决定参加为期 30 天的 JavaScript 编程挑战。
+
+In this challenge you will learn everything you need to be a JavaScript programmer, and in general, the whole concept of programming. 
+
+ 在这项挑战中，你会学习成为一名 JavaScript 程序员所需要的几乎所有的编程知识。
+
+In the end of the challenge you will get a 30DaysOfJavaScript programming challenge completion certificate. 
+
+
+
+In case you need help or if you would like to help others you may join the [telegram group](https://t.me/ThirtyDaysOfJavaScript).
 
 **A 30DaysOfJavaScript** challenge is a guide for both beginners and advanced JavaScript developers. Welcome to JavaScript. JavaScript is the language of the web. I enjoy using and teaching JavaScript and I hope you will do so too.
 
 In this step by step JavaScript challenge, you will learn JavaScript, the most popular programming language in the history of mankind.
-JavaScript is used **_to add interactivity to websites, to develop mobile apps, desktop applications, games_** and nowadays JavaScript can be used for **_machine learning_** and **_AI_**.
+JavaScript is used **_to add interactivity to websites, to develop mobile apps, desktop applications, games_** and nowadays JavaScript can be used for **_machine learning_** and **_AI_**. 
+
+JavaScript 常用来给网站添加交互性，开发移动 app，桌面应用，游戏。现在 JavaScript 能用于机器学习和人工智能。
 **_JavaScript (JS)_** has increased in popularity in recent years and has been the leading
 programming language for six consecutive years and is the most used programming language on
 Github.
@@ -188,6 +202,12 @@ Ctl+Shift+J
 After you open the Google Chrome console, try to explore the marked buttons. We will spend most of the time on the Console. The Console is the place where your JavaScript code goes. The Google Console V8 engine changes your JavaScript code to machine code.
 Let us write a JavaScript code on the Google Chrome console:
 
+图中的单词：
+
+`builtin function`	内置函数
+
+`argument`	参数
+
 ![write code on console](./images/js_code_on_chrome_console.png)
 
 #### Writing Code on Browser Console
@@ -212,7 +232,7 @@ console.log('Hello, World!')
 
 ##### Console.log with Multiple Arguments
 
-The **`console.log()`** function can take multiple parameters separated by commas. The syntax looks like as follows:**`console.log(param1, param2, param3)`**
+The **`console.log()`** function can take multiple parameters separated by commas逗号. The syntax looks like as follows:**`console.log(param1, param2, param3)`**
 
 ![console log multiple arguments](./images/console_log_multipl_arguments.png)
 
@@ -228,7 +248,7 @@ Congratulations! You wrote your first JavaScript code using _`console.log()`_.
 
 ##### Comments
 
-We can add comments to our code. Comments are very important to make code more readable and to leave remarks in our code. JavaScript does not execute the comment part of our code. In JavaScript, any text line starting with // in JavaScript is a comment, and anything enclosed like this `//` is also a comment.
+We can add comments to our code. Comments are very important to make code more readable and to leave remarks in our code. JavaScript does not execute the comment part of our code. In JavaScript, any text line starting with // in JavaScript is a comment, and anything enclosed被附上的 like this `//` is also a comment.
 
 **Example: Single Line Comment**
 
@@ -250,18 +270,18 @@ This is a multiline comment
 
 ##### Syntax
 
-Programming languages are similar to human languages. English or many other language uses words, phrases, sentences, compound sentences and other more to convey a meaningful message. The English meaning of syntax is _the arrangement of words and phrases to create well-formed sentences in a language_. The technical definition of syntax is the structure of statements in a computer language. Programming languages have syntax. JavaScript is a programming language and like other programming languages it has its own syntax. If we do not write a syntax that JavaScript understands, it will raise different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
+Programming languages are similar to human languages. English or many other language uses words, phrases, sentences句子, compound sentences混合句 and other more to convey传达 a meaningful message. The English meaning of syntax is _the arrangement排列 of words and phrases to create well-formed sentences in a language_. The technical definition of syntax is the structure of statements in a computer language. Programming languages have syntax. JavaScript is a programming language and like other programming languages it has its own syntax. If we do not write a syntax that JavaScript understands, it will raise出现 different types of errors. We will explore different kinds of JavaScript errors later. For now, let us see syntax errors.
 
 ![Error](images/raising_syntax_error.png)
 
-I made a deliberate mistake. As a result, the console raises syntax errors. Actually, the syntax is very informative. It informs what type of mistake was made. By reading the error feedback guideline, we can correct the syntax and fix the problem. The process of identifying and removing errors from a program is called debugging. Let us fix the errors:
+I made a deliberate故意的 mistake. As a result, the console raises syntax errors. Actually, the syntax is very informative翔实的. It informs告知 what type of mistake was made. By reading the error feedback guideline, we can correct the syntax and fix the problem. The process of identifying and removing errors from a program is called debugging. Let us fix the errors:
 
 ```js
 console.log('Hello, World!')
 console.log('Hello, World!')
 ```
 
-So far, we saw how to display text using the _`console.log()`_. If we are printing text or string using _`console.log()`_, the text has to be inside the single quotes, double quotes, or a backtick.
+So far到目前为止, we saw how to display text using the _`console.log()`_. If we are printing text or string using _`console.log()`_, the text has to be inside the single quotes引号, double quotes, or a backtick反引号（打印的文本必须在一对单引号、双引号或反引号之内）.
 **Example:**
 
 ```js
@@ -273,8 +293,8 @@ console.log(`Hello, World!`)
 #### Arithmetics
 
 Now, let us practice more writing JavaScript codes using _`console.log()`_ on Google Chrome console for number data types.
-In addition to the text, we can also do mathematical calculations using JavaScript. Let us do the following simple calculations.
-It is possible to write JavaScript code on Google Chrome console can directly without the **_`console.log()`_** function. However, it is included in this introduction because most of this challenge would be taking place in a text editor where the usage of the function would be mandatory. You can play around directly with instructions on the console.
+In addition to the text(除文本之外), we can also do mathematical calculations数学计算 using JavaScript. Let us do the following simple calculations.
+It is possible to write JavaScript code on Google Chrome console can directly without the **_`console.log()`_** function. However, it is included in this introduction because most of this challenge would be taking place in a text editor where the usage用法 of the function would be mandatory强制性的. You can play around directly with instructions on the console.
 
 ![Arithmetic](images/arithmetic.png)
 
