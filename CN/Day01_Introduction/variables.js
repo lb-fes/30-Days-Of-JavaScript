@@ -7,7 +7,7 @@ let age = 100
 let isMarried = false
 console.log(FirstName, lastName, country, city, age, isMarried)
 
-// 声明静态数字变量
+// 声明数字常量
 const gravity = 9.81
 const boilingPoint = 100
 const PI = 3.14
