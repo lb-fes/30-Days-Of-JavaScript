@@ -205,10 +205,10 @@ console.log(Math.min(-5, 3, 20, 4, 5, 10)) // -5, returns the minimum value
 
 console.log(Math.max(-5, 3, 20, 4, 5, 10)) // 20, returns the maximum value
 
-const randNum = Math.random() // creates random number between 0 to 0.999999
+const randNum = Math.random() // Returns a pseudorandom number between 0 and 1
 console.log(randNum)
 
-// Let us  create random number between 0 to 10
+// Let us  create random number between 0 and 10
 
 const num = Math.floor(Math.random () * 11) // creates random number between 0 and 10
 console.log(num)
@@ -236,11 +236,10 @@ console.log(Math.LN2)           // 0.6931471805599453
 console.log(Math.LN10)          // 2.302585092994046
 
 // Trigonometry
-Math.sin(0)
-Math.sin(60)
-
-Math.cos(0)
-Math.cos(60)
+console.log(Math.sin(0))
+console.log(Math.sin(60))
+console.log(Math.cos(0))
+console.log(Math.cos(60))
 ```
 
 #### Random Number Generator
@@ -451,7 +450,7 @@ console.log(firstName.length)  // 8
 2. *Accessing characters in a string*: We can access each character in a string using its index. In programming, counting starts from 0. The first index of the string is zero, and the last index is the length of the string minus one.
 
   ![Accessing sting by index](../images/string_indexes.png)
-  
+
 Let us access different characters in 'JavaScript' string.
 
 ```js
