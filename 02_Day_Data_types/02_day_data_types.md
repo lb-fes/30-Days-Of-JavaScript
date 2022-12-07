@@ -323,7 +323,7 @@ Asabeneh Yetayeh. I am 250. I live in Finland
 
 #### Long Literal Strings
 
-A string could be a single character or paragraph or a page. If the string length is too big it does not fit in one line. We can use the backslash character (\\) at the end of each line to indicate that the string will continue on the next line.
+A string could be a single character or paragraph or a page. If the string length is too long it does not fit in one line. We can use the backslash character (\\) at the end of each line to indicate that the string will continue on the next line.
 **Example:**
 
 ```js
@@ -344,9 +344,18 @@ console.log(paragraph)
 In JavaScript and other programming languages \ followed by some characters is an escape sequence. Let's see the most common escape characters:
 
 - \n: new line
-- \t: Tab, means 8 spaces
+
+- \t: Tab, means 4 spaces
+
+  ```javascript
+  console.log("\ttest")
+  console.log("    test")
+  ```
+
 - \\\\: Back slash
+
 - \\': Single quote (')
+
 - \\": Double quote (")
   
 ```js
@@ -364,14 +373,14 @@ console.log('The saying \'Seeing is Believing\' isn\'t correct in 2020')
 
 Output in console:
 
-```sh
+```javascript
 I hope everyone is enjoying the 30 Days Of JavaScript challenge.
 Do you ?
-Days  Topics  Exercises
-Day 1 3 5
-Day 2 3 5
-Day 3 3 5
-Day 4 3 5
+Days	Topics	Exercises
+Day 1	3	5
+Day 2	3	5
+Day 3	3	5
+Day 4	3	5
 This is a backslash  symbol (\)
 In every programming language it starts with "Hello, World!"
 In every programming language it starts with 'Hello, World!'
@@ -688,7 +697,7 @@ string.startsWith(substring)
 ```
 
 ```js
-let string = 'Love is the best to in this world'
+let string = 'Love is the best in this world'
 
 console.log(string.startsWith('Love'))   // true
 console.log(string.startsWith('love'))   // false
@@ -772,7 +781,7 @@ let regEx = /\d+/
 // + means one or more digit numbers,
 // if there is g after that it means global, search everywhere.
 
-console.log(txt.match(regEx))  // ["2", "0", "1", "9", "3", "0", "2", "0", "2", "0"]
+console.log(txt.match(regEx))  // ["2019"]
 console.log(txt.match(/\d+/g)) // ["2019", "30", "2020"]
 ```
 
@@ -969,7 +978,7 @@ console.log(numInt) // 9
 3. Clean the following text and find the most frequent word (hint, use replace and regular expressions).
 
     ```js
-        const sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching'
+        const sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching.'
     ```
 
 4. Calculate the total annual income of the person by extracting the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
