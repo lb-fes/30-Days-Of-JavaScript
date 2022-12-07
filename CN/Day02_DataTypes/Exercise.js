@@ -44,13 +44,6 @@ interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@ch
 console.log(sentence1.replace(/%|@|\$|#|&|;/g, ''))
 
 // 4. 通过提取数字从下列文本中计算出这个人的总年度收入
-// const sentence2 = "He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month."
-// let total = 0
-// for(i = 0; i < sentence2.match(/\d+/g).length; i++){
-//     total += parseInt(sentence2.match(/\d+/g)[i])
-// }
-// console.log(total)
-
 const sentence2 = "He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month."
 let array = sentence2.match(/\d+/g)
 let total = 0
