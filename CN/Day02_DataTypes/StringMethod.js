@@ -26,7 +26,7 @@ console.log(string1.trim())     // 删除 string1 开始和结束的空格、行
 console.log(string.includes("Day"))
 console.log(string.includes("day"))
 
-// replace()    替换指定的子串(区分大小写), 未改变源字符串
+// replace()    替换指定的第一个子串(区分大小写), 未改变源字符串
 console.log(string.replace("JavaScript", "Python"))
 console.log(string.replace("Javascript", "Python"))
 
